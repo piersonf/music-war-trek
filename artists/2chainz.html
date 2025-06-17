@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla Ice</title>
     <link href="/styles.css" rel="stylesheet" />
+    <script>
+      const artistInfo = {
+        artistName: '2 Chainz',
+        artistDescription: '',
+        artistStrength: '10',
+        artistCharisma: '10',
+        artistAlignment: '9',
+        artistIntelligence: '10',
+        artistSpecialPowers: 'Wears 2 Chainz',
+      };
+      document.getElementById('artistName').innerHTML = artistInfo.artistName;
+    </script>
   </head>
   <body>
     <h1>Music War Trek</h1>
@@ -19,13 +31,15 @@
         <a class="nav-link" href="/leaderboard">LeaderBoard</a>
       </nav>
       <div id="artist-profile">
-        <h2 class="artist">2 Chainz</h2>
-        <p>description:</p>
-        <p>strength: 10</p>
-        <p>charisma: 10</p>
-        <p>alignment (0 = evil): 9</p>
-        <p>intelligence: 010</p>
-        <p>special powers: Wears two chainz.</p>
+        <h2 class="artist" id="artistName">2 Chainz</h2>
+        <p>description:<span id="artistDescription"></span></p>
+        <p>strength:<span id="artistStrength">10</span></p>
+        <p>charisma:<span id="artistCharisma">10</span></p>
+        <p>alignment (0 = evil):<span id="artistAlignment">9</span></p>
+        <p>intelligence:<span id="artistIntelligence">10</span></p>
+        <p>
+          special powers:<span id="artistSpecialPowers">Wears two chainz.</span>
+        </p>
       </div>
     </div>
   </body>
