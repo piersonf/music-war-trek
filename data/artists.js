@@ -61,4 +61,57 @@ export const artists = [
     artistSpecialPowers:
       'Was knighted by Queen Elizabeth, so he has gained the ability to transform into any one of the 12 Knights of the Round Table',
   },
+  {
+    artistId: '7',
+    artistName: 'Charlie Puth',
+    artistDescription: '',
+    artistStrength: '2',
+    artistCharisma: '6',
+    artistAlignment: 'good',
+    artistIntelligence: '1',
+    artistSpecialPowers: 'pitch perfect',
+  },
+  {
+    artistId: '9',
+    artistName: 'John Coltrane',
+    artistDescription: '',
+    artistStrength: '10',
+    artistCharisma: '6',
+    artistAlignment: 'good',
+    artistIntelligence: '11',
+    artistSpecialPowers: 'harmonic and rhythmic complexity',
+  },
+  {
+    artistId: '11',
+    artistName: 'Porter Robinson',
+    artistDescription: '',
+    artistStrength: '2',
+    artistCharisma: '7',
+    artistAlignment: 'good',
+    artistIntelligence: '8',
+    artistSpecialPowers: 'Watching the water unfold.',
+  },
+  {
+    artistId: '12',
+    artistName: 'Salif',
+    artistDescription:
+      'Salif Keita, is a Malian singer-songwriter, referred to as the "Golden Voice of Africa". He is a member of the Keita royal family of Mali.',
+    artistStrength: '1',
+    artistCharisma: '6',
+    artistAlignment: 'good',
+    artistIntelligence: '0',
+    artistSpecialPowers: '',
+  },
+  {
+    artistId: '13',
+    artistName: 'Starset',
+    artistDescription:
+      'True neutral mindset, rejects most governed establishment in favor of a truer individualistic approach.Herd mentality leads to stagnation, STARSET wishes to always be moving forward, delivering fast-paced, cinematic metal to all who desire to hear.',
+    artistStrength: '2',
+    artistCharisma: '5',
+    artistAlignment: 'neutral',
+    artistIntelligence: '8',
+    artistSpecialPowers:
+      'Has a wormhole connected to a distant humanity-colonized planet in the year 2047, occasionally obtaining ability to gain slightly advanced weaponry.',
+  },
 ];
