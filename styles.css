@@ -66,3 +66,18 @@ img {
   
 }
 
+h2 {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Fantasy";
+}
+
+h3 {
+  text-align: center;
+  color: coral;
+  font-family: "Monospace";
+}
+
+.center-table {
+  margin: 0px auto;
+}
