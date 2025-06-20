@@ -100,7 +100,8 @@ export const artists = [
     artistCharisma: 6,
     artistAlignment: 'good',
     artistIntelligence: 0,
-    artistSpecialPowers: '',
+    artistSpecialPowers: 'Has access to special Wakandan technology.',
+
   },
   {
     artistId: 13,
