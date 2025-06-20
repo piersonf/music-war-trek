@@ -114,4 +114,18 @@ export const artists = [
     artistSpecialPowers:
       'Has a wormhole connected to a distant humanity-colonized planet in the year 2047, occasionally obtaining ability to gain slightly advanced weaponry.',
   },
+
+  {
+    artistId: '14',
+    artistName: 'Usher',
+    artistDescription:
+      'Usher Raymond IV, the king of the clerb',
+    artistStrength: '5',
+    artistCharisma: '8',
+    artistAlignment: 'neutral',
+    artistIntelligence: '6',
+    artistSpecialPowers:
+      'Can make people get lost in a trance to his music',
+  },
+
 ];
