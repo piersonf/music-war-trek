@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Artists</title>
+    <title>Vanilla Ice</title>
     <link href="/styles.css" rel="stylesheet" />
+    <script type="module" src="/scripts/artistDetails.js" defer></script>
   </head>
   <body>
     <h1>Music War Trek</h1>
     <div id="container">
       <p id="sub-head">Fan pages battle of the bands</p>
+
       <nav id="main-nav">
         <a class="nav-link" href="/">Home</a>
         <a class="nav-link" href="/help">How To Play</a>
@@ -17,35 +19,15 @@
         <a class="nav-link" href="/battles">Battles</a>
         <a class="nav-link" href="/leaderboard">LeaderBoard</a>
       </nav>
+      <div id="artist-profile">
+        <h2 class="artist" id="artistName"></h2>
+        <p>description:<span id="artistDescription"></span></p>
+        <p>strength:<span id="artistStrength"></span></p>
+        <p>charisma:<span id="artistCharisma"></span></p>
+        <p>alignment (0 = evil):<span id="artistAlignment"></span></p>
+        <p>intelligence:<span id="artistIntelligence"></span></p>
+        <p>special powers:<span id="artistSpecialPowers"></span></p>
+      </div>
     </div>
-    <h2>Battles</h2>
-    <table>
-      <tr>
-        <th>Battle Name</th>
-        <th>Contender #1</th>
-        <th>Contender #2</th>
-      </tr>
-    </table>
-
-    <table>
-      <tr>
-        <th>Battle Name</th>
-        <th>Contender #1</th>
-        <th>Contender #2</th>
-        <th>Winner</th>
-      </tr>
-      <tr>
-        <td><b>"Chained ICE"</b></td>
-        <td>Vanilla Ice</td>
-        <td>2Chainz</td>
-        <td>2Chainz</td>
-      </tr>
-      <tr>
-        <td><b>"Birds n' Beatles"</b></td>
-        <td>Taylor Swift</td>
-        <td>The Beatles</td>
-        <td>TBD</td>
-      </tr>
-    </table>
   </body>
 </html>
