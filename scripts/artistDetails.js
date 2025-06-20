@@ -6,10 +6,8 @@ console.log(`getting ${artistId}`);
 
 const thisArtist = artists.find((artist) => artist.artistId === artistId);
 
-
 console.log(thisArtist);
-delete thisArtist["artistId"];
-for (let property in thisArtist){
+delete thisArtist['artistId'];
+for (let property in thisArtist) {
   document.getElementById(property).innerHTML = thisArtist[property];
 }
-

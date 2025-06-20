@@ -1,6 +1,6 @@
 export const artists = [
   {
-    artistId: 1,
+    artistId: '1',
     artistName: '2 Chainz',
     artistDescription: "He's on a boat.",
     artistStrength: 10,
@@ -10,7 +10,7 @@ export const artists = [
     artistSpecialPowers: 'Wears 2 Chainz',
   },
   {
-    artistId: 2,
+    artistId: '2',
     artistName: 'Vanilla Ice',
     artistDescription: "If there is a problem, yo he'll solve it.",
     artistStrength: 1,
@@ -20,7 +20,7 @@ export const artists = [
     artistSpecialPowers: 'Ability to speak with anthropomorphized turtles.',
   },
   {
-    artistId: 3,
+    artistId: '3',
     artistName: 'The Beatles',
     artistDescription: "They're the Beatles.",
     artistStrength: '8',
@@ -30,7 +30,7 @@ export const artists = [
     artistSpecialPowers: 'Hand holding',
   },
   {
-    artistId: 4,
+    artistId: '4',
     artistName: 'Alesso',
     artistDescription:
       'Alessandro Lindblad, better known as Alesso, is a Swedish DJ and music producer specializing in progressive house. He gained international recognition for his remixes and original productions, collaborating with various artists and performing at major music festivals. Alesso\'s debut album, "Forever," was released in 2015. ',
@@ -41,7 +41,7 @@ export const artists = [
     artistSpecialPowers: 'Ability to to make girls cry with music.',
   },
   {
-    artistId: 5,
+    artistId: '5',
     artistName: 'A Tribe Called Quest',
     artistDescription: 'early 90s hip-hop band',
     artistStrength: 3,
@@ -51,7 +51,7 @@ export const artists = [
     artistSpecialPowers: 'able to achieve relaxation on another level',
   },
   {
-    artistId: 6,
+    artistId: '6',
     artistName: 'Elton John',
     artistDescription: 'the man who popularized piano rock',
     artistStrength: 8,
@@ -62,7 +62,7 @@ export const artists = [
       'Was knighted by Queen Elizabeth, so he has gained the ability to transform into any one of the 12 Knights of the Round Table',
   },
   {
-    artistId: 7,
+    artistId: '7',
     artistName: 'Charlie Puth',
     artistDescription: 'charlie poo poo',
     artistStrength: 2,
@@ -72,7 +72,7 @@ export const artists = [
     artistSpecialPowers: 'pitch perfect',
   },
   {
-    artistId: 9,
+    artistId: '9',
     artistName: 'John Coltrane',
     artistDescription: '',
     artistStrength: 10,
@@ -82,7 +82,7 @@ export const artists = [
     artistSpecialPowers: 'harmonic and rhythmic complexity',
   },
   {
-    artistId: 11,
+    artistId: '11',
     artistName: 'Porter Robinson',
     artistDescription: '',
     artistStrength: 2,
@@ -92,7 +92,7 @@ export const artists = [
     artistSpecialPowers: 'Watching the water unfold.',
   },
   {
-    artistId: 12,
+    artistId: '12',
     artistName: 'Salif',
     artistDescription:
       'Salif Keita, is a Malian singer-songwriter, referred to as the "Golden Voice of Africa". He is a member of the Keita royal family of Mali.',
@@ -101,10 +101,9 @@ export const artists = [
     artistAlignment: 'good',
     artistIntelligence: 0,
     artistSpecialPowers: 'Has access to special Wakandan technology.',
-
   },
   {
-    artistId: 13,
+    artistId: '13',
     artistName: 'Starset',
     artistDescription:
       'True neutral mindset, rejects most governed establishment in favor of a truer individualistic approach.Herd mentality leads to stagnation, STARSET wishes to always be moving forward, delivering fast-paced, cinematic metal to all who desire to hear.',
@@ -119,13 +118,12 @@ export const artists = [
     artistId: '14',
     artistName: 'The Cure',
     artistDescription:
-      'English rock band formed in Crawley in 1976. The band\'s current line-up comprises Robert Smith (vocals), Perry Bamonte (guitar and keyboards), Reeves Gabrels (guitar), Simon Gallup (bass), Roger O\'Donnell (keyboards), and Jason Cooper (drums).',
+      "English rock band formed in Crawley in 1976. The band's current line-up comprises Robert Smith (vocals), Perry Bamonte (guitar and keyboards), Reeves Gabrels (guitar), Simon Gallup (bass), Roger O'Donnell (keyboards), and Jason Cooper (drums).",
     artistStrength: '2',
     artistCharisma: '5',
     artistAlignment: 'evil',
     artistIntelligence: '8',
-    artistSpecialPowers:
-      'Strength increases if today is Friday.',
+    artistSpecialPowers: 'Strength increases if today is Friday.',
   },
   {
     artistId: '15',
@@ -149,7 +147,7 @@ export const artists = [
     artistAlignment: 'chaotic neutral',
     artistIntelligence: '7',
     artistSpecialPowers:
-      'Has developed synesthetic technology that converts musical frequencies into visible light patterns, creating personalized visual experiences unique to each listeners neurological response.'
+      'Has developed synesthetic technology that converts musical frequencies into visible light patterns, creating personalized visual experiences unique to each listeners neurological response.',
   },
   {
     artistId: '17',
@@ -160,21 +158,17 @@ export const artists = [
     artistCharisma: '7',
     artistAlignment: 'neutral',
     artistIntelligence: '4',
-    artistSpecialPowers:
-      'Theres a lot of them(13).',
+    artistSpecialPowers: 'Theres a lot of them(13).',
   },
 
   {
     artistId: '18',
     artistName: 'Usher',
-    artistDescription:
-      'Usher Raymond IV, the king of the clerb',
+    artistDescription: 'Usher Raymond IV, the king of the clerb',
     artistStrength: '5',
     artistCharisma: '8',
     artistAlignment: 'neutral',
     artistIntelligence: '6',
-    artistSpecialPowers:
-      'Can make people get lost in a trance to his music',
+    artistSpecialPowers: 'Can make people get lost in a trance to his music',
   },
-
 ];
