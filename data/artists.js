@@ -114,4 +114,28 @@ export const artists = [
     artistSpecialPowers:
       'Has a wormhole connected to a distant humanity-colonized planet in the year 2047, occasionally obtaining ability to gain slightly advanced weaponry.',
   },
+  {
+    artistId: '14',
+    artistName: 'Kendrick Lamar',
+    artistDescription:
+      'Lawful good storyteller, uses his platform to address social injustice and personal growth through introspective lyrics. Kendrick challenges listeners to confront uncomfortable truths while offering hope through authentic expression. His music blends jazz, funk, and traditional hip-hop elements with thought-provoking narratives.',
+    artistStrength: '7',
+    artistCharisma: '9',
+    artistAlignment: 'lawful good',
+    artistIntelligence: '10',
+    artistSpecialPowers:
+      'Possesses the ability to channel collective consciousness of communities, translating complex societal experiences into lyrical form that resonates across cultural boundaries.',
+  },
+  {
+    artistId: '15',
+    artistName: 'Eclipse Horizon',
+    artistDescription:
+      'Chaotic neutral innovator, defies genre classification by fusing electronic, orchestral, and industrial elements. Eclipse Horizon believes art should disrupt comfort zones and force listeners to question reality. Their performances incorporate visual storytelling that blurs the line between concert and immersive theater.',
+    artistStrength: '5',
+    artistCharisma: '8',
+    artistAlignment: 'chaotic neutral',
+    artistIntelligence: '7',
+    artistSpecialPowers:
+      'Has developed synesthetic technology that converts musical frequencies into visible light patterns, creating personalized visual experiences unique to each listeners neurological response.'
+  },
 ];
