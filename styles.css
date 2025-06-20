@@ -19,6 +19,16 @@ footer {
   bottom: 10px;
   text-align: center;
 }
+
+.btn {
+  background-color: rgb(214, 94, 46);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 #main-nav {
   color: yellow;
   display: flex;
@@ -26,6 +36,7 @@ footer {
   margin-bottom: 30px;
   background-color: black;
 }
+
 .nav-link {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -33,20 +44,24 @@ footer {
   font-size: 24px;
   padding: 20px;
 }
+
 .artist {
   color: blueviolet;
   font-size: 48px;
 }
+
 .artistv2 {
-  color:midnightblue;
+  color: midnightblue;
   font-size: 56px;
 }
+
 #artist-profile {
   width: 50%;
   margin: 0px auto;
   border: 1px solid black;
   padding: 0px 20px;
 }
+
 #sub-head {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
@@ -63,6 +78,5 @@ footer {
 
 img {
   border-radius: 30px;
-  
-}
 
+}
