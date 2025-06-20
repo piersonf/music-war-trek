@@ -152,7 +152,7 @@ export const artists = [
       'Has developed synesthetic technology that converts musical frequencies into visible light patterns, creating personalized visual experiences unique to each listeners neurological response.'
   },
   {
-    artistId: '16',
+    artistId: '17',
     artistName: 'Seventeen',
     artistDescription:
       'Made up of three subgroups, Seventeen reps styles from pop to rap to rock.',
@@ -163,4 +163,18 @@ export const artists = [
     artistSpecialPowers:
       'Theres a lot of them(13).',
   },
+
+  {
+    artistId: '18',
+    artistName: 'Usher',
+    artistDescription:
+      'Usher Raymond IV, the king of the clerb',
+    artistStrength: '5',
+    artistCharisma: '8',
+    artistAlignment: 'neutral',
+    artistIntelligence: '6',
+    artistSpecialPowers:
+      'Can make people get lost in a trance to his music',
+  },
+
 ];
