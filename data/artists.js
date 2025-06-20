@@ -25,7 +25,7 @@ export const artists = [
     artistDescription: "They're the Beatles.",
     artistStrength: '8',
     artistCharisma: '8',
-    artistAlignment: 'good',
+    artistAlignment: 'evil',
     artistIntelligence: '8',
     artistSpecialPowers: 'Hand holding',
   },
@@ -116,6 +116,18 @@ export const artists = [
   },
   {
     artistId: '14',
+    artistName: 'The Cure',
+    artistDescription:
+      'English rock band formed in Crawley in 1976. The band\'s current line-up comprises Robert Smith (vocals), Perry Bamonte (guitar and keyboards), Reeves Gabrels (guitar), Simon Gallup (bass), Roger O\'Donnell (keyboards), and Jason Cooper (drums).',
+    artistStrength: '2',
+    artistCharisma: '5',
+    artistAlignment: 'evil',
+    artistIntelligence: '8',
+    artistSpecialPowers:
+      'Strength increases if today is Friday.',
+  },
+  {
+    artistId: '15',
     artistName: 'Kendrick Lamar',
     artistDescription:
       'Lawful good storyteller, uses his platform to address social injustice and personal growth through introspective lyrics. Kendrick challenges listeners to confront uncomfortable truths while offering hope through authentic expression. His music blends jazz, funk, and traditional hip-hop elements with thought-provoking narratives.',
@@ -127,7 +139,7 @@ export const artists = [
       'Possesses the ability to channel collective consciousness of communities, translating complex societal experiences into lyrical form that resonates across cultural boundaries.',
   },
   {
-    artistId: '15',
+    artistId: '16',
     artistName: 'Eclipse Horizon',
     artistDescription:
       'Chaotic neutral innovator, defies genre classification by fusing electronic, orchestral, and industrial elements. Eclipse Horizon believes art should disrupt comfort zones and force listeners to question reality. Their performances incorporate visual storytelling that blurs the line between concert and immersive theater.',
