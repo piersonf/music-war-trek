@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artists</title>
+    <link href="/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Music War Trek</h1>
+    <div id="container">
+      <p id="sub-head">Fan pages battle of the bands</p>
+      <nav id="main-nav">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/help">How To Play</a>
+        <a class="nav-link" href="/artists">Artists</a>
+        <a class="nav-link" href="/battles">Battles</a>
+        <a class="nav-link" href="/leaderboard">LeaderBoard</a>
+      </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Add A Band!</h1>
+                <form onsubmit="event.preventDefault();">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Artist Name:</label>
+                        <input type="name" class="form-control" id="name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Artist Description:</label>
+                        <input type="description" class="form-control" id="description">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="strength" class="form-label">Strength:</label>
+                        <input type="strength" class="form-control" id="strength">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="charisma" class="form-label">Charisma:</label>
+                        <input type="charisma" class="form-control" id="charisma">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="alignment" class="form-label">Alignment:</label>
+                        <input type="alignment" class="form-control" id="alignment">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="intelligence" class="form-label">Intelligence:</label>
+                        <input type="intelligence" class="form-control" id="intelligence">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="powers" class="form-label">Special Powers:</label>
+                        <input type="powers" class="form-control" id="powers">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" id="registerButton">Add Band!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
