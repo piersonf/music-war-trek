@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla Ice</title>
     <link href="/styles.css" rel="stylesheet" />
+    <script defer type="module" src="/artists/artistDynamicFill.js"></script>
   </head>
   <body>
     <h1>Music War Trek</h1>
@@ -19,13 +20,13 @@
         <a class="nav-link" href="/leaderboard">LeaderBoard</a>
       </nav>
       <div id="artist-profile">
-        <h2 class="artist">Vanilla Ice</h2>
+        <h2 class="artist"><span id="nameSpan"></span></h2>
         <p>description:</p>
         <p>strength: <span id="strengthSpan"></span></p>
         <p>charisma: <span id="charismaSpan"></span></p>
         <p>alignment (0 = evil): <span id="alignmentSpan"></span></p>
         <p>intelligence: <span id="intelligenceSpan"></span></p>
-        <p>special powers: <span id="specialpowersSpan"></span></p>
+        <p>special powers: <span id="special powersSpan"></span></p>
       </div>
     </div>
   </body>

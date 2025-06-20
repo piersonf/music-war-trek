@@ -1,0 +1,18 @@
+{
+    "1": {
+        "name": "Vanilla Ice",
+        "strength": "1",
+        "charisma": "2",
+        "alignment": "3",
+        "intelligence": "4",
+        "special powers": "5"
+    },
+    "2": {
+        "name": "Last Dinosaurs",
+        "strength": "6",
+        "charisma": "7",
+        "alignment": "8",
+        "intelligence": "9",
+        "special powers": "10"
+    }
+}
