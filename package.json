@@ -7,6 +7,7 @@
     "esbuild": "^0.25.5",
     "fdir": "^6.4.6",
     "fsevents": "^2.3.3",
+    "live-server": "^1.2.2",
     "nanoid": "^3.3.11",
     "picocolors": "^1.1.1",
     "picomatch": "^4.0.2",
@@ -21,7 +22,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serve"
+    "start": "live-server --port=3000"
   },
   "author": "",
   "license": "ISC"
