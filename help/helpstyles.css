@@ -5,3 +5,17 @@
     font-weight: 400;
     font-style: normal;
 }
+
+h2 {
+    font-weight: 800;
+    font-style: bold;
+    text-decoration: underline;
+    font-size: 24px;
+    color:slategray;
+}
+
+p {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
