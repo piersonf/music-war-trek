@@ -5,15 +5,15 @@
 h1 {
   text-align: center;
   font-size: 128px;
-  color: rgb(214, 94, 46);
+  color: rgb(74, 151, 223);
   font-family: cursive;
   margin: 10px 0px 10px 0px;
 }
 
 footer {
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: rgb(127, 228, 162);
+  color: rgb(236, 31, 31);
   padding: 20px;
   position: absolute;
   bottom: 10px;
@@ -30,11 +30,11 @@ footer {
 }
 
 #main-nav {
-  color: yellow;
+  color: rgb(0, 255, 251);
   display: flex;
   justify-content: space-around;
   margin-bottom: 30px;
-  background-color: black;
+  background-color: rgb(119, 40, 129);
 }
 
 .nav-link {
@@ -51,14 +51,14 @@ footer {
 }
 
 .artistv2 {
-  color: midnightblue;
+  color:rgb(192, 192, 233);
   font-size: 56px;
 }
 
 #artist-profile {
   width: 50%;
   margin: 0px auto;
-  border: 1px solid black;
+  border: 1px solid rgb(222, 224, 99);
   padding: 0px 20px;
 }
 
@@ -72,7 +72,7 @@ footer {
 #helpful-links {
   width: 50%;
   margin: 0px auto;
-  border: 1px solid black;
+  border: 1px solid rgb(103, 17, 17);
   padding: 0px 20px;
 }
 
