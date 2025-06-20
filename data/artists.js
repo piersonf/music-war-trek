@@ -138,4 +138,16 @@ export const artists = [
     artistSpecialPowers:
       'Has developed synesthetic technology that converts musical frequencies into visible light patterns, creating personalized visual experiences unique to each listeners neurological response.'
   },
+  {
+    artistId: '16',
+    artistName: 'Seventeen',
+    artistDescription:
+      'Made up of three subgroups, Seventeen reps styles from pop to rap to rock.',
+    artistStrength: '5',
+    artistCharisma: '7',
+    artistAlignment: 'neutral',
+    artistIntelligence: '4',
+    artistSpecialPowers:
+      'Theres a lot of them(13).',
+  },
 ];
