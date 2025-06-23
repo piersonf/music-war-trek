@@ -4,22 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artists</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link href="/styles.css" rel="stylesheet" />
     <script type="module" src="/scripts/artistList.js" defer></script>
   </head>
   <body>
-    <h1>Music War Trek</h1>
-    <div id="container">
-      <p id="sub-head">Fan pages battle of the bands</p>
-      <nav id="main-nav">
-        <a class="nav-link" href="/">Home</a>
-        <a class="nav-link" href="/help">How To Play</a>
-        <a class="nav-link" href="/artists">Artists</a>
-        <a class="nav-link" href="/battles">Battles</a>
-        <a class="nav-link" href="/leaderboard">LeaderBoard</a>
-      </nav>
+    <div class="continer">
+      <h1 class="text-center my-4">Music War Trek</h1>
+      <div id="container">
+        <p id="sub-head">Fan pages battle of the bands</p>
+        <nav
+          id="main-nav"
+          class="navbar navbar-expand-lg navbar-light bg-light mb-4"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/help">How To Play</a>
+            <a class="nav-link" href="/artists">Artists</a>
+            <a class="nav-link" href="/battles">Battles</a>
+            <a class="nav-link" href="/leaderboard">LeaderBoard</a>
+          </div>
+        </nav>
+      </div>
+      <h2 class="mb-3 text-center">Artists</h2>
+      <div class="row just-content-center">
+        <div class="col-md-12">
+          <ul id="artistList" class="list-group"></ul>
+        </div>
+      </div>
     </div>
-    <h2>Artists</h2>
-    <ul id="artistList"></ul>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
